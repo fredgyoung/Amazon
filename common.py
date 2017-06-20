@@ -2,10 +2,13 @@
 
 def find_common(str1, str2):
 
-    str1 = str(str1)
-    str2 = str(str2)
+    if type(str1) == int:
+        str1 = str(str1)
 
-    print( str1, str2)
+    if type(str2) == int:
+        str2 = str(str2)
+
+    #print( str1, str2)
 
     result = ''
 
@@ -16,11 +19,11 @@ def find_common(str1, str2):
     return result
 
 
-#x = find_common('string', 'strong')
-#print(x)
+x = find_common('string', 'strong')
+print(x)
 
-#x = find_common(1234, 2345)
-#print(x)
+x = find_common(1234, 2345)
+print(x)
 
 x = find_common(['a', 'b'], ['b', 'c'])
 print(x)
