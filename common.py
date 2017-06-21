@@ -30,18 +30,6 @@ def is_anagram(str1, str2, case_sensitive=True):
 
     return
 
-"""
-1. f (string, strong) // happy path
-2. f (null, null) // both null
-3. f ("", "") // both empty strings
-4. f (" ", " ") // both empty strings with spaces - blank strings
-5. f ("abc", "zxy") // no matches
-6. f ("!@#$", "1@#!@") // special chars
-7. f (null, "somestring") // 1st param null other not
-8. f ("somestring", null) // 2nd param null other not
-9. Test with very large inputs
-10. f ("azzzzzzzz", "zzzzzzza") // mathcing in different positions
-"""
 
 # Invalid
 is_anagram(None, None) # nulls
