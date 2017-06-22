@@ -48,7 +48,7 @@ print('--------------')
 # Pass
 is_anagram('', '') # empty strings
 is_anagram(' ', ' ') # blanks
-is_anagram('abc', 'cba') # exact copy
+is_anagram('abc', 'abc') # exact copy
 is_anagram('abc', 'cba') # reverse string
 is_anagram('!@#$', '$#@!') # special characters
 
